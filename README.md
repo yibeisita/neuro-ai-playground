@@ -123,7 +123,8 @@ Then open any project notebook under `projects/<project_name>/notebooks/`.
 
 > 09. Source Localization
 > 10. Connectivity
-> 11–12. Deep Learning & Multimodal Integration
+> 11. Deep Learning
+> 12. Multimodal Integration
 
 
 
