@@ -65,20 +65,20 @@ neuro-ai-playground/
 
 ## Installation
 
-### 1️⃣ Clone the repo
+### 1. Clone the repo
 ```bash
 git clone https://github.com/YOUR_USERNAME/neuro-ai-playground.git
 cd neuro-ai-playground
 ````
 
-### 2️⃣ Create the environment
+### 2. Create the environment
 
 ```bash
 conda env create -f environment.yml
 conda activate neuro-ai
 ```
 
-### 3️⃣ Launch Jupyter
+### 3. Launch Jupyter
 
 ```bash
 jupyter notebook
@@ -86,7 +86,6 @@ jupyter notebook
 
 Then open any project notebook under `projects/<project_name>/notebooks/`.
 
----
 
 ## Tools & Libraries
 
@@ -99,7 +98,6 @@ Then open any project notebook under `projects/<project_name>/notebooks/`.
 | Visualization    | `matplotlib`, `seaborn`                                |
 | Data Formats     | `nibabel`, `pandas`, `numpy`                           |
 
----
 
 ## Example Datasets
 
