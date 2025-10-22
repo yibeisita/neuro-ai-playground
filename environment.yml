@@ -1,0 +1,21 @@
+name: neuro-ai
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - jupyter
+  - mne
+  - nilearn
+  - nibabel
+  - pytorch
+  - torchvision
+  - networkx
+  - seaborn
+  - requests
+  - ipywidgets
