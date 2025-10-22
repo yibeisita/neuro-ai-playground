@@ -60,8 +60,6 @@ neuro-ai-playground/
 | 11 | Deep Learning on EEG | End-to-end modeling | CNN/RNN, PyTorch | `PyTorch`, `MNE` | ⏳ Planned |
 | 12 | Multimodal Integration | EEG + fMRI | Feature fusion | `MNE`, `nilearn` | ⏳ Planned |
 
----
-
 
 ## Installation
 
