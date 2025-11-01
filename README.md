@@ -28,7 +28,7 @@ neuro-ai-playground/
 │   └── glossary.md
 │
 └── projects/
-    ├── 01_eeg_read_plot/
+    ├── 01_eeg_meg_analysis/
     ├── 02_fmri_visualize/
     ├── 03_eeg_preprocessing/
     ├── 04_fmri_preprocessing/
@@ -47,7 +47,7 @@ neuro-ai-playground/
 
 | # | Project | Focus | Skills Learned | Tools | Status |
 |---|----------|--------|----------------|-------|--------|
-| 01 | EEG Read & Plot | Load + visualize EEG signals | File I/O, PSD, plotting | `MNE` | ⏳ Planned |
+| 01 | EEG Read & Analyze | Load + visualize EEG signals | File I/O, PSD, plotting, preprocessing | `MNE` | ⏳ Planned |
 | 02 | fMRI Visualization | Display brain volumes | NIfTI handling, slicing | `nilearn`, `nibabel` | ⏳ Planned |
 | 03 | EEG Preprocessing | Filtering, ICA | Signal cleaning | `MNE` | ⏳ Planned |
 | 04 | fMRI Preprocessing | Motion correction, slice timing | BIDS, `fmriprep` | `nilearn`, `nipype` | ⏳ Planned |
