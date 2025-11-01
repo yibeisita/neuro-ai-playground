@@ -13,9 +13,9 @@ These techniques are widely used in neuroscience and clinical research to study:
 - Brain rhythms and oscillations (alpha, beta, gamma waves)  
 - Sensory processing and cognitive functions  
 - Event-related potentials (ERPs) and fields (ERFs)  
-- Brain disorders such as epilepsy, sleep disorders, and cognitive impairments  
+- Neurological and psychiatric disorders such as epilepsy, sleep disorders, and cognitive decline
 
-This project provides a hands-on introduction to EEG/MEG data analysis, from raw data handling to time-frequency analysis, allowing beginners to understand both the computational and neuroscientific aspects.
+This project introduces the fundamental workflow for EEG/MEG analysis, emphasizing data loading, inspection, visualization, and basic preprocessing using real data from the official MNE sample dataset.
 
 ### Project Structure
 
@@ -28,9 +28,7 @@ eeg-meg-analysis/
 ├── notebooks/        
 │   ├── 01_load_and_inspect_data.ipynb
 │   ├── 02_preprocessing_and_filtering.ipynb
-│   ├── 03_epoching_and_events.ipynb
-│   ├── 04_time_frequency_analysis.ipynb
-│   └── 05_source_localization.ipynb (optional)
+│   └── 03_epoching_and_evoked.ipynb
 │
 ├── results/               # Figures, plots, and output files
 │   └── psd_plot.png
@@ -45,22 +43,22 @@ eeg-meg-analysis/
 
 **Run the notebooks** in order:
 
-   * `01_load_and_inspect_data.ipynb` – Load raw EEG/MEG data and inspect channels
-   * `02_preprocessing_and_filtering.ipynb` – Filter and clean data
-   * `03_epoching_and_events.ipynb` – Extract epochs and analyze event-related responses
-   * `04_time_frequency_analysis.ipynb` – Visualize how spectral content changes over time
-   * `05_source_localization.ipynb` (optional) – Source modeling
+| Notebook                               | Description                                                                   |
+| -------------------------------------- | ----------------------------------------------------------------------------- |
+| `01_load_and_inspect_data.ipynb`       | Load raw EEG/MEG data and inspect metadata, channels, and power spectra.      |
+| `02_preprocessing_and_filtering.ipynb` | Filter the data, identify noisy or flat channels, and perform basic cleaning. |
+| `03_epoching_and_evoked.ipynb`         | Detect events, extract epochs, and compute simple event-related responses.    |
 
+Project Goals: 
 
-The main goals of this project are:  
+1. **Understand EEG/MEG data structure**: Learn about channels, sampling frequency, metadata, and event markers in raw recordings.
 
-1. **Learn to handle EEG/MEG data**: Understand how raw recordings are structured, including channels, sampling frequency, and events.  
-2. **Preprocess data effectively**: Apply filters, remove artifacts, and select relevant channels.  
-3. **Analyze event-related activity**: Extract epochs and compute averaged responses (ERPs/ERFs).  
-4. **Explore frequency content**: Visualize power spectral densities and time-frequency dynamics.  
-5. **Build a reproducible workflow**: Organize notebooks, results, and data in a way suitable for learning and sharing.  
+2. **Visualize raw data**: Plot and explore EEG/MEG signals, channel types, and spectral characteristics.
 
-By completing this project, beginners gain practical experience using **MNE-Python** and a conceptual understanding of EEG/MEG analysis.
+3. **Preprocess data**: Apply filtering, identify noisy channels, and prepare clean signals for further analysis.
+
+4. **Detect and visualize events**: Extract experimental events (e.g., auditory or visual stimuli) from the data and prepare them for epoching and event-related analysis.
+
 
 ## References 
 - MNE documentation: https://mne.tools/stable/auto_tutorials/index.html

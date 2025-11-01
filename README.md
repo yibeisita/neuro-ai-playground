@@ -47,7 +47,7 @@ neuro-ai-playground/
 
 | # | Project | Focus | Skills Learned | Tools | Status |
 |---|----------|--------|----------------|-------|--------|
-| 01 | EEG Read & Analyze | Load + visualize EEG signals | File I/O, PSD, plotting, preprocessing | `MNE` | ⏳ Planned |
+| 01 | EEG Read & Visualize | Load + visualize EEG signals | File I/O, PSD, plotting, preprocessing | `MNE` | ⏳ Planned |
 | 02 | fMRI Visualization | Display brain volumes | NIfTI handling, slicing | `nilearn`, `nibabel` | ⏳ Planned |
 | 03 | EEG Preprocessing | Filtering, ICA | Signal cleaning | `MNE` | ⏳ Planned |
 | 04 | fMRI Preprocessing | Motion correction, slice timing | BIDS, `fmriprep` | `nilearn`, `nipype` | ⏳ Planned |
@@ -127,14 +127,12 @@ Then open any project notebook under `projects/<project_name>/notebooks/`.
 > 12. Multimodal Integration
 
 
-
-
 ## How to Contribute
 
 Contributions are welcome!
 You can:
 
-* Add new projects (e.g., “Resting-State fMRI Connectivity”)
+* Add new projects
 * Improve notebooks or visualizations
 * Add documentation under `/docs`
 
@@ -151,8 +149,6 @@ Please open a Pull Request or Issue on GitHub with your suggestions.
 
 This repository is licensed under the **MIT License**.
 You are free to use, modify, and distribute for educational and research purposes.
-
-
 
 
 
