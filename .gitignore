@@ -2,5 +2,6 @@
 .DS_Store
 datasets/*
 !datasets/download_scripts/
+!datasets/README.md
 __pycache__/
 *.py[cod]
