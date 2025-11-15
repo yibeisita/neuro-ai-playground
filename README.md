@@ -80,7 +80,7 @@ Clean and prepare data for analysis
 | 02.1 EEG/MEG Cleaning | Filtering, ICA, artifact removal | EEG/MEG | Signal processing, ICA decomposition |
 | 02.2 fMRI Pipeline | Motion correction, slice timing | fMRI | BIDS, preprocessing workflows |
 
-**Status**: ⏳ Planned
+**Status**: ദ്ദി(ᵔᗜᵔ) Complete
 
 ### Level 3: Time Domain Analysis
 Analyze brain activity over time
