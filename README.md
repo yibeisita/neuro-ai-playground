@@ -52,7 +52,6 @@ Learn to load and visualize neuroimaging data
 | 01.1 EEG Basics  | Load and plot EEG signals, compute PSD               | EEG      | File I/O, time series plotting, PSD analysis            |
 | 01.2 MEG Basics  | Visualize raw MEG and evoked responses, topographies | MEG      | Sensor layouts, evoked vs raw, topographic maps         |
 | 01.3 fMRI Basics | Display mean images, glass brain, deviation maps     | fMRI     | NIfTI handling, anatomical overlay, temporal deviations |
-|
 
 **Status**: ദ്ദി(ᵔᗜᵔ) Complete
 
@@ -63,7 +62,6 @@ Clean and prepare data for analysis
 |----------|-------|----------|------------|
 | 02.1 EEG/MEG Cleaning | Filtering, ICA, artifact removal | EEG/MEG | Signal processing, ICA decomposition |
 | 02.2 fMRI Pipeline | Motion correction, slice timing | fMRI | BIDS, preprocessing workflows |
-|
 
 **Status**: ⏳ Planned
 
@@ -74,7 +72,6 @@ Analyze brain activity over time
 |----------|-------|----------|------------|
 | 03.1 ERP Analysis | Event-related potentials | EEG/MEG | Epoching, averaging, statistics |
 | 03.2 GLM Activation | Task-based fMRI analysis | fMRI | General linear model, design matrices |
-|
 
 **Status**: ⏳ Planned
 
@@ -86,7 +83,6 @@ Understand brain oscillations
 |----------|-------|----------|------------|
 | 04.1 Time-Frequency | Spectrograms, wavelets | EEG/MEG | Wavelet transforms, multitaper methods |
 | 04.2 Oscillatory Power | Band-specific analysis | EEG/MEG | Alpha, beta, gamma rhythms |
-|
 
 **Status**: ⏳ Planned
 
@@ -98,7 +94,6 @@ Localize brain activity
 |----------|-------|----------|------------|
 | 05.1 Source Localization | Inverse solutions | MEG/EEG | Forward/inverse modeling, dipoles |
 | 05.2 ROI Analysis | Region-of-interest extraction | fMRI | Atlases, parcellation, timecourses |
-|
 
 **Status**: ⏳ Planned
 
@@ -110,7 +105,6 @@ Map brain networks
 |----------|-------|----------|------------|
 | 06.1 EEG/MEG Connectivity | Phase locking, coherence | EEG/MEG | Functional connectivity metrics |
 | 06.2 fMRI Networks | Resting-state networks | fMRI | Correlation matrices, graph theory |
-|
 
 **Status**: ⏳ Planned
 
@@ -123,7 +117,6 @@ Decode brain states
 | 07.1 EEG Decoding | Classification basics | EEG | Scikit-learn, cross-validation |
 | 07.2 fMRI MVPA | Multi-voxel pattern analysis | fMRI | Searchlight, classification |
 | 07.3 Cross-Validation | Proper validation strategies | All | Nested CV, permutation testing |
-|
 
 **Status**: ⏳ Planned
 
@@ -136,7 +129,6 @@ End-to-end neural networks
 | 08.1 EEG CNN | Convolutional neural nets | EEG | PyTorch, CNN architectures |
 | 08.2 EEG RNN | Recurrent neural nets | EEG | LSTM, temporal modeling |
 | 08.3 fMRI 3D CNN | Volumetric deep learning | fMRI | 3D convolutions, attention |
-|
 
 **Status**: ⏳ Planned
 
@@ -149,7 +141,6 @@ Combine different brain imaging modalities
 |----------|-------|----------|------------|
 | 09.1 EEG-fMRI Fusion | Joint analysis | EEG + fMRI | Feature fusion, co-registration |
 | 09.2 MEG-fMRI Fusion | Temporal + spatial integration | MEG + fMRI | Source space fusion |
-|
 
 **Status**: ⏳ Planned
 
