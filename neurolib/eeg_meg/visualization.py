@@ -3,10 +3,15 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-def plot_raw(raw, n_channels=20, duration=10):
-    """Plot EEG raw signals."""
+def plot_raw(raw, n_channels=30, duration=10.0, title=None):
+    """Plot MEG/EEG raw signals."""
     mne.set_config('MNE_BROWSER_BACKEND', 'matplotlib', set_env=True)
-    raw.plot(n_channels=n_channels, duration=duration, scalings='auto', title='EEG Raw Data')
+    fig = raw.plot(n_channels=n_channels, duration=duration, scalings='auto', title=title, show=False)
+    if fig is not None and title:
+        ax = fig.axes[0] 
+        ax.set_title(title)
+    
+    plt.show()
 
 def plot_psd(raw, fmin=1, fmax=40):
     """Compute and plot PSD using the modern MNE API."""

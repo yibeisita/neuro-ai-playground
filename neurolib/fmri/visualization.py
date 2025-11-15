@@ -7,6 +7,24 @@ from nilearn import datasets
 MNI_TEMPLATE = datasets.load_mni152_template()
 
 
+def plot_fmri_epi(img, title="fMRI Image", display_mode="ortho", cut_coords=None, cmap="gray"):
+    """
+    Wrapper for nilearn.plotting.plot_epi to visualize 3D/4D fMRI images.
+    """
+    plotting.plot_epi(
+        img,
+        title=title,
+        display_mode=display_mode,
+        cut_coords=cut_coords,
+        cmap=cmap
+    )
+
+def plot_fmri_diffmap(diff_img, title=None):
+    """Plot a difference map with strong contrast."""
+    vmax = np.percentile(np.abs(diff_img.get_fdata()), 99)
+    plotting.plot_epi(diff_img, vmin=-vmax, vmax=vmax, cmap="cold_hot", title=title)
+
+
 def plot_mean_image(fmri_img, title=None):
     """
     Plot mean fMRI image across time over MNI152 template.
