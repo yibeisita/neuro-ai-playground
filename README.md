@@ -1,4 +1,4 @@
-# Neuro-AI Playground (｡´ ‿｀♡)
+# Neuro-AI Playground
 
 A hands-on learning lab for exploring **EEG**, **MEG**, and **fMRI** data using **Python**, **MNE**, **Nilearn**, and **Machine Learning**.
 
