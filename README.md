@@ -40,11 +40,6 @@ neuro-ai-playground/
 ├── requirements.txt
 ├── LICENSE
 │
-├── neurolib/             # Shared utilities library
-│   ├── eeg_meg/          # EEG/MEG preprocessing, analysis, viz
-│   ├── fmri/             # fMRI preprocessing, analysis, viz
-│   └── ml/               # Machine learning utilities
-│
 ├── tutorials/            # Learning notebooks organized by skill
 │   ├── 01_foundations/
 │   ├── 02_preprocessing/
@@ -204,7 +199,7 @@ Then navigate to `tutorials/` and open any notebook to get started!
 
 ## Example Datasets
 
-All datasets can be downloaded using scripts in `datasets/download_scripts/`
+All datasets can be downloaded using scripts in `datasets/download_scripts/` as well as through the notebooks. 
 
 | Dataset | Modality | Description | Size |
 |---------|----------|-------------|------|
@@ -221,28 +216,10 @@ python datasets/download_scripts/get_mne_sample.py
 
 ## Quick Start Guide
 
-### 1. Start with EEG Basics
+### Start with EEG Basics
 ```bash
 jupyter notebook tutorials/01_foundations/01_eeg_basics.ipynb
 ```
-
-### 2. Try the shared library
-```python
-from neurolib.eeg_meg import preprocess_raw, plot_psd
-import mne
-
-# Load data
-raw = mne.io.read_raw_fif('sample_data.fif', preload=True)
-
-# Preprocess using neurolib
-raw_clean = preprocess_raw(raw, filter_params={'l_freq': 1, 'h_freq': 40})
-
-# Visualize
-plot_psd(raw_clean)
-```
-
-### 3. Follow the learning path
-Progress through tutorials from Level 1 → 9 based on your goals
 
 
 ## Contributing
@@ -251,7 +228,6 @@ Contributions are welcome! You can:
 
 - Add new tutorials
 - Improve existing notebooks
-- Extend the `neurolib` package
 - Add documentation or examples
 - Report bugs or suggest features
 
