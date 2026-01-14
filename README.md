@@ -204,9 +204,9 @@ All datasets can be downloaded using scripts in `datasets/download_scripts/` as 
 | Dataset | Modality | Description | Size |
 |---------|----------|-------------|------|
 | MNE Sample | MEG/EEG | Auditory/Visual task | ~1.5 GB |
+| Nilearn Development | fMRI | 4D BOLD data | ~10 MB | 
 | OpenNeuro ds000117 | fMRI | Famous faces task | ~50 GB |
 | OpenNeuro ds003775 | EEG | Motor imagery | ~5 GB |
-| HCP Young Adult | fMRI/MEG | Resting state + tasks | Request access |
 |
 
 **To download the MNE sample dataset:**
