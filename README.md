@@ -85,7 +85,7 @@ Analyze brain activity over time
 | 03.1 ERP Analysis | Event-related potentials | EEG/MEG | Epoching, averaging, statistics |
 | 03.2 GLM Activation | Task-based fMRI analysis | fMRI | General linear model, design matrices |
 
-**Status**: ⏳ Planned
+**Status**: ദ്ദി(ᵔᗜᵔ) Complete
 
 
 ### Level 4: Frequency Domain
