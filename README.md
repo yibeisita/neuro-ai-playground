@@ -96,7 +96,7 @@ Understand brain oscillations
 | 04.1 Time-Frequency | Spectrograms, wavelets | EEG/MEG | Wavelet transforms, multitaper methods |
 | 04.2 Oscillatory Power | Band-specific analysis | EEG/MEG | Alpha, beta, gamma rhythms |
 
-**Status**: ⏳ Planned
+**Status**: ദ്ദി(ᵔᗜᵔ) Complete
 
 
 ### Level 5: Spatial Analysis
@@ -107,7 +107,7 @@ Localize brain activity
 | 05.1 Source Localization | Inverse solutions | MEG/EEG | Forward/inverse modeling, dipoles |
 | 05.2 ROI Analysis | Region-of-interest extraction | fMRI | Atlases, parcellation, timecourses |
 
-**Status**: ⏳ Planned
+**Status**: ⏳ WIP
 
 
 ### Level 6: Connectivity
