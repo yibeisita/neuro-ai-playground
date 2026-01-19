@@ -14,3 +14,4 @@ networkx
 seaborn
 requests
 ipywidgets
+statsmodels
