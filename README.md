@@ -118,7 +118,7 @@ Map brain networks
 | 06.1 EEG/MEG Connectivity | Phase locking, coherence | EEG/MEG | Functional connectivity metrics |
 | 06.2 fMRI Networks | Resting-state networks | fMRI | Correlation matrices, graph theory |
 
-**Status**: ⏳ Planned
+**Status**: ⏳ WIP
 
 
 ### Level 7: Machine Learning
@@ -207,7 +207,7 @@ All datasets can be downloaded using scripts in `datasets/download_scripts/` as 
 | Nilearn Development | fMRI | 4D BOLD data | ~10 MB | 
 | OpenNeuro ds000117 | fMRI | Famous faces task | ~50 GB |
 | OpenNeuro ds003775 | EEG | Motor imagery | ~5 GB |
-|
+
 
 **To download the MNE sample dataset:**
 ```bash
