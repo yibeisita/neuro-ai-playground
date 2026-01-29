@@ -6,6 +6,7 @@ matplotlib
 scikit-learn
 jupyter
 mne
+mne-connectivity
 nilearn
 nibabel
 torch
