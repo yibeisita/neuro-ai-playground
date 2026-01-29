@@ -107,7 +107,7 @@ Localize brain activity
 | 05.1 Source Localization | Inverse solutions | MEG/EEG | Forward/inverse modeling, dipoles |
 | 05.2 ROI Analysis | Region-of-interest extraction | fMRI | Atlases, parcellation, timecourses |
 
-**Status**: ⏳ WIP
+**Status**: ദ്ദി(ᵔᗜᵔ) Complete
 
 
 ### Level 6: Connectivity
