@@ -118,7 +118,7 @@ Map brain networks
 | 06.1 EEG/MEG Connectivity | Phase locking, coherence | EEG/MEG | Functional connectivity metrics |
 | 06.2 fMRI Networks | Resting-state networks | fMRI | Correlation matrices, graph theory |
 
-**Status**: ⏳ WIP
+**Status**: ⏳ ദ്ദി(ᵔᗜᵔ) Complete
 
 
 ### Level 7: Machine Learning
