@@ -205,6 +205,7 @@ All datasets can be downloaded using scripts in `datasets/download_scripts/` as 
 |---------|----------|-------------|------|
 | MNE Sample | MEG/EEG | Auditory/Visual task | ~1.5 GB |
 | Nilearn Development | fMRI | 4D BOLD data | ~10 MB | 
+| Haxby 2001 | fMRI | Visual object categories (faces, houses, etc.), VT ROI | ~150 MB |
 | OpenNeuro ds000117 | fMRI | Famous faces task | ~50 GB |
 | OpenNeuro ds003775 | EEG | Motor imagery | ~5 GB |
 
