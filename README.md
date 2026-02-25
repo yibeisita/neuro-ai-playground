@@ -130,7 +130,7 @@ Decode brain states
 | 07.2 fMRI MVPA | Multi-voxel pattern analysis | fMRI | Searchlight, classification |
 | 07.3 Cross-Validation | Proper validation strategies | All | Nested CV, permutation testing |
 
-**Status**: ⏳ Planned
+**Status**: ദ്ദി(ᵔᗜᵔ) Complete
 
 
 ### Level 8: Deep Learning
