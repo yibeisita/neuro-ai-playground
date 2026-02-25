@@ -199,7 +199,7 @@ Then navigate to `tutorials/` and open any notebook to get started!
 
 ## Example Datasets
 
-All datasets can be downloaded using scripts in `datasets/download_scripts/` as well as through the notebooks. 
+All datasets can be downloaded through the notebooks in each corresponding tutorial. 
 
 | Dataset | Modality | Description | Size |
 |---------|----------|-------------|------|
