@@ -142,8 +142,7 @@ End-to-end neural networks
 | 08.2 EEG RNN | Recurrent neural nets | EEG | LSTM, temporal modeling |
 | 08.3 fMRI 3D CNN | Volumetric deep learning | fMRI | 3D convolutions, attention |
 
-**Status**: ⏳ Planned
-
+**Status**: ദ്ദി(ᵔᗜᵔ) Complete
 
 
 ### Level 9: Multimodal Integration
