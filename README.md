@@ -153,7 +153,7 @@ Combine different brain imaging modalities
 | 09.1 EEG-fMRI Fusion | Joint analysis | EEG + fMRI | Feature fusion, co-registration |
 | 09.2 MEG-fMRI Fusion | Temporal + spatial integration | MEG + fMRI | Source space fusion |
 
-**Status**: ⏳ Planned
+**Status**: ദ്ദി(ᵔᗜᵔ) Complete
 
 
 ## Installation
@@ -164,15 +164,15 @@ git clone https://github.com/YOUR_USERNAME/neuro-ai-playground.git
 cd neuro-ai-playground
 ```
 
-### 2. Create the conda environment
+### 2. Create and activate a virtual environment (`venv`)
 ```bash
-conda env create -f environment.yml
-conda activate neuro-ai
+python3 -m venv .venv
+source .venv/bin/activate
 ```
 
-### 3. Install the neurolib package
+### 3. Install dependencies
 ```bash
-pip install -e .
+pip install -r requirements.txt
 ```
 
 ### 4. Launch Jupyter
@@ -191,8 +191,9 @@ Then navigate to `tutorials/` and open any notebook to get started!
 | fMRI Analysis | [Nilearn](https://nilearn.github.io/stable/index.html) |
 | Machine Learning | [scikit-learn](https://scikit-learn.org/) |
 | Deep Learning | [PyTorch](https://pytorch.org/) |
-| Visualization | `matplotlib`, `seaborn`, `plotly` |
-| Data Formats | `nibabel`, `pandas`, `numpy` |
+| Multimodal Fusion | EEG+fMRI feature fusion, co-registration workflows |
+| Visualization | `matplotlib`, `seaborn` |
+| Data & Numerics | `nibabel`, `pandas`, `numpy`, `scipy` |
 
 
 
@@ -202,24 +203,12 @@ All datasets can be downloaded through the notebooks in each corresponding tutor
 
 | Dataset | Modality | Description | Size |
 |---------|----------|-------------|------|
-| MNE Sample | MEG/EEG | Auditory/Visual task | ~1.5 GB |
-| Nilearn Development | fMRI | 4D BOLD data | ~10 MB | 
-| Haxby 2001 | fMRI | Visual object categories (faces, houses, etc.), VT ROI | ~150 MB |
+| MNE Sample | MEG/EEG | Auditory/Visual task (used in 7.1, 8.1, 8.2, 9.2) | ~1.5 GB |
+| Nilearn Development | fMRI | Resting-state fMRI (used in 6.2) | ~10 MB | 
+| Haxby 2001 | fMRI | Visual object categories + VT mask (used in 7.2, 8.3, 9.1, 9.2) | ~150 MB |
 | OpenNeuro ds000117 | fMRI | Famous faces task | ~50 GB |
 | OpenNeuro ds003775 | EEG | Motor imagery | ~5 GB |
 
-
-**To download the MNE sample dataset:**
-```bash
-python datasets/download_scripts/get_mne_sample.py
-```
-
-## Quick Start Guide
-
-### Start with EEG Basics
-```bash
-jupyter notebook tutorials/01_foundations/01_eeg_basics.ipynb
-```
 
 
 ## Contributing
